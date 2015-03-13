@@ -1,3 +1,10 @@
+---
+layout: page
+title: Toolkit
+permalink: /toolkit/
+published: true
+---
+
 #Design Toolkit Resources
 
 ##Career focus
