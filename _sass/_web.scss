@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+}
+
+.hero {
+    height: 100%;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/t31.0-8/10636818_798585763513551_8512243890731656208_o.jpg") no-repeat center center;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+// .hero:before {
+//   position: absolute;
+//   top: 0; right: 0; bottom: 0; left: 0;
+//   background-color: rgba(0,0,0,.4);
+//   content: ' ';
+// }
