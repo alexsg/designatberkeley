@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+}
+
+.hero {
+    height: 100%;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/t31.0-8/10636818_798585763513551_8512243890731656208_o.jpg") no-repeat center center;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav {
+	height: 15%;
+	background: $white;
+}
+
+.fixedClass {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0px 1px 5px $grey-color;
+}
+
+.section {
+	height: 100%;
+}
+
+.resources {
+	background: $blue;
+}
+
+.getinvolved {
+	background: $white;
+}
+
+.events {
+	background: $green;
+}
