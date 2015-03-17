@@ -3,15 +3,15 @@ $(document).ready(function(){
 	$nav.data('size', 'big');
 
 	$(window).scroll(function(){
-		if($(window).scrollTop() > window.innerHeight){ // position of menu from the top 
+		if($(window).scrollTop() > window.innerHeight-130){ // position of menu from the top 
 			$nav.addClass('fixedClass');
 			if ($nav.data('size') == 'big') {
-				$nav.data('size','small').stop().animate({height:'7%'}, 300);
+				$nav.data('size','small').stop().animate({fontSize: ".8em", height:'7%', paddingTop:"0em"}, 300);
 			}
 		} else{
 			$nav.removeClass('fixedClass');
 			if ($nav.data('size') == 'small') {
-				$nav.data('size','big').stop().animate({height:'15%'}, 300);
+				$nav.data('size','big').stop().animate({fontSize: "1em", height:'15%', paddingTop:"1.5em"}, 300);
 			}
 		}
 	});
