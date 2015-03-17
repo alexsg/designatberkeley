@@ -15,9 +15,30 @@ body, html {
     background-size: cover;
 }
 
-// .hero:before {
-//   position: absolute;
-//   top: 0; right: 0; bottom: 0; left: 0;
-//   background-color: rgba(0,0,0,.4);
-//   content: ' ';
-// }
+.nav {
+	height: 15%;
+	background: $white;
+}
+
+.fixedClass {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0px 1px 5px $grey-color;
+}
+
+.section {
+	height: 100%;
+}
+
+.resources {
+	background: $blue;
+}
+
+.getinvolved {
+	background: $white;
+}
+
+.events {
+	background: $green;
+}
