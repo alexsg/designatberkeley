@@ -27,16 +27,18 @@ $(document).ready(function(){
     speed: 3500 
   });
 
+
+
   $(window).scroll(function(){
     if($(window).scrollTop() > window.innerHeight-100){ // position of menu from the top 
       $nav.addClass('fixedClass');
       if ($nav.data('size') == 'big') {
-        $nav.data('size','small').stop().animate({height: '60px'}, 300);
+        $nav.data('size','small').stop().animate({height: '50px', font-size: '.9em'}, 300);
       }
     } else{
       $nav.removeClass('fixedClass');
       if ($nav.data('size') == 'small') {
-        $nav.data('size','big').stop().animate({height: '64px'}, 300);
+        $nav.data('size','big').stop().animate({height: '64px', font-size: '1em'}, 300);
       }
     }
   });

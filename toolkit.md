@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: toolkit
 title: Toolkit
 permalink: /toolkit/
 published: true
