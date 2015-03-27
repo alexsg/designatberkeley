@@ -65,9 +65,13 @@ a {
   }
 }
 
+
+/** NAVIGATION BAR **/
+
 nav {
   background: $white;
-  z-index: 1000;
+  z-index: 100000000;
+  height: 64px;
 
   .home-link {
     padding: $unit*4;
@@ -75,13 +79,10 @@ nav {
     float: left;
   }
 
-  a {
+  .nav-link > a {
     text-transform: uppercase;
     font-weight: 500;
-
-    &:hover {
-      color: $grey-color;
-    }
+    padding: $unit*4;
   }
 
   ul {
@@ -89,12 +90,61 @@ nav {
     padding: 0;
     float: right;
 
-    li {
+    li.nav-link {
       display: inline-block;
-      padding: $unit*4;
-     }
+      padding: $unit*4 0;
+
+      &:hover {
+        background: $blue;
+
+        > a {
+          color: $white;
+        }
+      }
+
+    }
+
+    li.dropdown {
+      ul.dropdown-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        margin-top: $unit*4;
+
+        li {
+          display: block;
+        }
+      }
+
+      &:hover {
+        ul.dropdown-menu {
+          display: block;
+          opacity: 1;
+          visibility: visible;
+          z-index: 100000000;
+
+          li {
+            background: $white;
+            padding: 4*$unit 0;
+
+            &:hover {
+              background: $blue;
+            }
+
+            a {
+              padding: 4*$unit;
+            }
+          }
+        }
+      }
+    }
   }
 }
+
+
+
+
 
 .fixedClass {
   position: fixed;
