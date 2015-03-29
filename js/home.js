@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var $nav = $('nav');
+  var $nav = $('#main-nav');
   $nav.data('size', 'big');
 
 
@@ -33,12 +33,14 @@ $(document).ready(function(){
     if($(window).scrollTop() > window.innerHeight-100){ // position of menu from the top 
       $nav.addClass('fixedClass');
       if ($nav.data('size') == 'big') {
-        $nav.data('size','small').stop().animate({height: '50px', font-size: '.9em'}, 300);
+        $nav.data('size','small').stop().animate({height: '50px', fontSize: '.9em'}, 300);
+        $('.padding-change').stop().animate({paddingTop: '14px'}, 300);
       }
     } else{
       $nav.removeClass('fixedClass');
       if ($nav.data('size') == 'small') {
-        $nav.data('size','big').stop().animate({height: '64px', font-size: '1em'}, 300);
+        $nav.data('size','big').stop().animate({height: '64px', fontSize: '1em'}, 300);
+        $('.padding-change').stop().animate({paddingTop: '20px'}, 300);
       }
     }
   });
