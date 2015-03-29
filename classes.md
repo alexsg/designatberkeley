@@ -1,3 +1,9 @@
-## Classes
+---
+layout: info
+title: Classes
+permalink: /classes/
+published: true
+---
 
-Classes
+
+Classes content
