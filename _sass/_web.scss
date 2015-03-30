@@ -17,6 +17,11 @@ body, html {
   background-color: $white;
 }
 
+a {
+  text-decoration: none;
+  color: $black;
+}
+
 .hero {
   min-height: 600px;
   background: linear-gradient(
@@ -75,7 +80,7 @@ nav {
   height: 64px;
 
   .home-link {
-    padding: $unit*4;
+    padding: $unit*4 0;
     display: inline-block;
     float: left;
   }
@@ -160,8 +165,13 @@ nav {
 }
 
 
-section {
+
+section.homepage {
   padding: $unit*20 0;
+}
+
+section {
+  padding: $unit*10 0;
 }
 
 .subhead {
@@ -252,6 +262,28 @@ section {
 footer {
   background: $black;
   padding: 5% 0;
+
+  a {
+    color: $white;
+    text-decoration: none;
+    &:visited {
+      color: $white;
+    }
+  }
+
+  .footer-logo {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 4*$unit;
+    }
+  }
+
+
 }
 
 /* MAILCHIMP MAILING LIST FORM STYLES BELOW */
@@ -305,5 +337,10 @@ input.button-blue {
 .environmental,
 .fashion {
   background: $green;
+}
+
+/** CLUBS PAGE **/
+.club {
+  padding-bottom: $unit*4;
 }
 
