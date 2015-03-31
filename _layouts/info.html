@@ -1,0 +1,24 @@
+<html>
+{% include head.html %}
+</html>
+
+<body>
+
+  {% include nav.html %}
+
+  <section>
+    <header class="row centered">
+      <h1>{{ page.title }}</h1>
+    </header>
+
+    <div class="row">
+      <p class="post-content">
+        {{ content }}
+      </p>
+    </div>
+
+  </section>
+
+  {% include footer.html %}
+
+</body>
