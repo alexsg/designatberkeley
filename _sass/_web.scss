@@ -19,16 +19,130 @@ body, html {
 
 a {
   text-decoration: none;
-  color: $black;
+  color: $white;
+}
+
+
+/** NAVIGATION BAR **/
+
+nav {
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 100000000;
+  height: 64px;
+  color: $white;
+
+  .row {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .home-link {
+    padding: $unit*4 0;
+    display: inline-block;
+    float: left;
+  }
+
+  .nav-link > a {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: $unit*4;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+
+    li.nav-link {
+      display: inline-block;
+      padding: $unit*4 0;
+
+      &:hover {
+        background: $blue;
+
+        > a {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+li.dropdown {
+  ul.dropdown-menu {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: $box-shadow;
+    position: absolute;
+    margin-top: $unit*4;
+
+    li {
+      display: block;
+    }
+  }
+
+  &:hover {
+    ul.dropdown-menu {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+      z-index: 100000000;
+
+      li {
+        background: $white;
+        padding: 4*$unit 0;
+
+        &:hover {
+          background: $blue;
+        }
+
+        a {
+          padding: 4*$unit;
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+.fixedClass {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: $box-shadow;
+  background: $white;
+
+  @include transition(all, 0.5s, ease);
+
+  a {
+    color: $black;
+  }
 }
 
 .hero {
   min-height: 600px;
+  margin-top: -64px;
+}
+
+.hero-homepage {
   background: linear-gradient(
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
   ),
   url("https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/t31.0-8/10636818_798585763513551_8512243890731656208_o.jpg") no-repeat center center;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-council {
+  min-height: 600px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url("../media/council.jpg") no-repeat center center;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
   -o-background-size: cover;
@@ -72,93 +186,8 @@ a {
 }
 
 
-/** NAVIGATION BAR **/
-
-nav {
-  background: $white;
-  z-index: 100000000;
-  height: 64px;
-
-  .home-link {
-    padding: $unit*4 0;
-    display: inline-block;
-    float: left;
-  }
-
-  .nav-link > a {
-    text-transform: uppercase;
-    font-weight: 500;
-    padding: $unit*4;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-    float: right;
-
-    li.nav-link {
-      display: inline-block;
-      padding: $unit*4 0;
-
-      &:hover {
-        background: $blue;
-
-        > a {
-          color: $white;
-        }
-      }
-
-    }
-
-    li.dropdown {
-      ul.dropdown-menu {
-        display: none;
-        visibility: hidden;
-        opacity: 0;
-        box-shadow: $box-shadow;
-        position: absolute;
-        margin-top: $unit*4;
-
-        li {
-          display: block;
-        }
-      }
-
-      &:hover {
-        ul.dropdown-menu {
-          display: block;
-          opacity: 1;
-          visibility: visible;
-          z-index: 100000000;
-
-          li {
-            background: $white;
-            padding: 4*$unit 0;
-
-            &:hover {
-              background: $blue;
-            }
-
-            a {
-              padding: 4*$unit;
-            }
-          }
-        }
-      }
-    }
-  }
-}
 
 
-
-
-
-.fixedClass {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  box-shadow: $box-shadow;
-}
 
 .resources-blurb {
   padding-top: $unit*20;
