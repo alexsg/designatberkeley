@@ -5,6 +5,11 @@
 
   {% include nav.html %}
 
+  <div class="hero hero-designtoolkit inverted">
+    <div class="mid">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
 
   <section class="whatis humancentered">
     <div class="row">
@@ -13,7 +18,10 @@
       </div>
       <div class="large-6 columns">
         <h2>Human-centered design</h2>
-          
+        
+        <p>
+          Inspiration. Ideation. Iteration. Repeat. Human-centered design is a design process and way of thinking that aids designers across the board who aim to design for the end-user in mind.
+        </p>
       </div>
     </div>
   </section>
@@ -75,24 +83,7 @@
     </div>
   </section>
 
-  <footer class="inverted">
-    <div class="row">
-      <div class="large-5 columns">
-        <h3>Brought to you by UC Berkeley's <img src="/media/logo.png" style="filter: invert(100%); -webkit-filter: invert(100%); width:30%; height:30%;" /></h3>
-        <p>
-          We are a group of UC Berkeley students passionate about promoting design education, culture, and awareness on campus. We meet every Friday from 3pm to 4pm in 360 Hearst Mining Memorial Building.
-        </p>
-      </div>
-      <div class="large-5 columns">
-        <h3>Social Media</h3>
-        <ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+  {% include footer.html %}
 
 
 

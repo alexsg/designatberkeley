@@ -19,17 +19,22 @@ body, html {
 
 a {
   text-decoration: none;
-  color: $white;
+  color: $grey;
 }
 
 
 /** NAVIGATION BAR **/
+$nav-height: 64px;
 
 nav {
   background-color: rgba(0, 0, 0, 0);
   z-index: 100000000;
-  height: 64px;
+  height: $nav-height;
   color: $white;
+
+  a {
+    color: $white;
+  }
 
   .row {
     background-color: rgba(0, 0, 0, 0);
@@ -143,6 +148,45 @@ li.dropdown {
     rgba(0, 0, 0, 0.3)
   ),
   url("../media/council.jpg") no-repeat center center;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-clubs {
+  min-height: 600px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url("../media/clubs.jpg") no-repeat center center;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-designtoolkit {
+  min-height: 600px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url("../media/designtoolkit.jpg") no-repeat center center;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-classes {
+  min-height: 600px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url("../media/classes.jpg") no-repeat center center;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
   -o-background-size: cover;
@@ -348,6 +392,9 @@ input.button-blue {
 
 .whatis {
   h2 {
+    color: $white;
+  }
+  p {
     color: $white;
   }
 

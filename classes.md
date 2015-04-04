@@ -1,5 +1,5 @@
 ---
-layout: info
+layout: classes
 title: Classes
 permalink: /classes/
 published: true
