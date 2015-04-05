@@ -7,8 +7,10 @@ $(document).ready(function(){
    ** Create and append responses to 'Design is' so that
    ** JS loading slowly won't result in a block of text showing up on the page
    **/
-  var $rotate = $('.rotate');
-  $rotate.text("the perfect fusion of creativity and logic|a way of thinking, a pursuit, a process|interdisciplinary problem-solving|everywhere, everything|iterating on a problem to find the best solution|a way to enhance people's lives");
+  var $rotate = $('#rotate');
+  if ($rotate) {
+    $rotate.text("the perfect fusion of creativity and logic|a way of thinking, a pursuit, a process|interdisciplinary problem-solving|everywhere, everything|iterating on a problem to find the best solution|a way to enhance people's lives");
+  }
 
 
   /**

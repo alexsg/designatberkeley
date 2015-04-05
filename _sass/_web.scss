@@ -6,12 +6,12 @@
   transition: $transition-property $transition-time $method;
 }
 
-@mixin hero-bg(image-url) {
+@mixin hero-bg($image-url) {
   background: linear-gradient(
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
   ),
-  url(image-url) no-repeat center center;
+  url($image-url) no-repeat center center;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
   -o-background-size: cover;
@@ -136,6 +136,7 @@ li.dropdown {
   }
 }
 
+/** HERO IMAGES **/
 .hero {
   min-height: 500px;
   margin-top: -64px;
@@ -147,10 +148,6 @@ li.dropdown {
 
 .hero-homepage {
   min-height: 600px;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
-  ),
   @include hero-bg("https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/t31.0-8/10636818_798585763513551_8512243890731656208_o.jpg");
 }
 
@@ -170,7 +167,13 @@ li.dropdown {
   @include hero-bg("../media/classes.jpg");
 }
 
-.mid {
+h3#rotate {
+  font-size: 1.75em;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.centered {
   h1 {
     margin-bottom: 0;
   }
@@ -185,6 +188,7 @@ h2 {
   font-size: 2.5em;
   line-height: 110%;
 }
+
 
 h4 {
   font-size: 1.5em;
