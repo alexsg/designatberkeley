@@ -6,6 +6,18 @@
   transition: $transition-property $transition-time $method;
 }
 
+@mixin hero-bg(image-url) {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url(image-url) no-repeat center center;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 $unit: 5px;
 
@@ -19,6 +31,7 @@ body, html {
 
 a {
   text-decoration: none;
+  color: $black;
 }
 
 
@@ -124,72 +137,37 @@ li.dropdown {
 }
 
 .hero {
-  min-height: 600px;
+  min-height: 500px;
   margin-top: -64px;
+
+  .centered h1 {
+    padding-top: 200px;
+  }
 }
 
 .hero-homepage {
+  min-height: 600px;
   background: linear-gradient(
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
   ),
-  url("https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/t31.0-8/10636818_798585763513551_8512243890731656208_o.jpg") no-repeat center center;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover;
-  background-size: cover;
+  @include hero-bg("https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/t31.0-8/10636818_798585763513551_8512243890731656208_o.jpg");
 }
 
 .hero-council {
-  min-height: 600px;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
-  ),
-  url("../media/council.jpg") no-repeat center center;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover;
-  background-size: cover;
+  @include hero-bg("../media/council.jpg");
 }
 
 .hero-clubs {
-  min-height: 600px;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
-  ),
-  url("../media/clubs.jpg") no-repeat center center;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover;
-  background-size: cover;
+  @include hero-bg("../media/clubs.jpg");
 }
 
 .hero-designtoolkit {
-  min-height: 600px;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
-  ),
-  url("../media/designtoolkit.jpg") no-repeat center center;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover;
-  background-size: cover;
+  @include hero-bg("../media/designtoolkit.jpg");
 }
 
 .hero-classes {
-  min-height: 600px;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
-  ),
-  url("../media/classes.jpg") no-repeat center center;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover;
-  background-size: cover;
+  @include hero-bg("../media/classes.jpg");
 }
 
 .mid {
