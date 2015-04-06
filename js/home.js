@@ -1,6 +1,5 @@
 $(document).ready(function(){
-  var $nav = $('#main-nav');
-  $nav.data('size', 'big');
+  var $nav = $('.scroll-nav');
 
 
   /**
@@ -33,9 +32,9 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
     if($(window).scrollTop() > window.innerHeight-100){ // position of menu from the top 
-      $nav.addClass('fixedClass');
+      $nav.addClass('active');
     } else{
-      $nav.removeClass('fixedClass');
+      $nav.removeClass('active');
     }
   });
 
