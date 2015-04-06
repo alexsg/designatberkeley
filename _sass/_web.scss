@@ -131,8 +131,8 @@ li.dropdown {
     li {
       padding: 4*$unit 0;
       list-style-type: none;
+      @include transition(all, 0.3s, ease);
 
-      
       a {
         padding: 4*$unit;
         color: $black;
@@ -151,7 +151,8 @@ li.dropdown {
       li {
         &:hover {
           background: $blue;
-
+          @include transition(all, 0.3s, ease);
+          
           a {
             color: $white;
           }
@@ -230,10 +231,9 @@ p {
 .fa-arrow-right {
   font-size: .8em;
 }
-a {
 
+a {
   &:hover {
-    @include transition(all, 0.5s, ease);
   }
 }
 
@@ -312,6 +312,11 @@ section {
   text-decoration: none;
   text-transform: uppercase;
   padding: 14px 18px;
+  @include transition(all, 0.3s, ease);
+
+  &:hover {
+    @include transition(all, 0.3s, ease);
+  }
 }
 
 
@@ -328,8 +333,6 @@ section {
   border: 2px solid $green;
   background-color: $green;
 
-  &:hover {
-  }
 }
 
 .button-orange {
