@@ -152,7 +152,7 @@ li.dropdown {
         &:hover {
           background: $blue;
           @include transition(all, 0.3s, ease);
-          
+
           a {
             color: $white;
           }
@@ -422,31 +422,44 @@ input.button-blue {
 }
 
 
-/* TOOLKIT STYLING */
+/* INTRO TO DESIGN PAGE STYLING */
+
+.disciplines .row {
+  max-width: 100%;
+}
+
 
 .whatis {
+  min-height: 800px;
+  padding: $unit*10;
+
+  img {
+    margin-bottom: $unit*10;
+  }
+
   h2 {
     color: $white;
+    text-align: center;
   }
   p {
     color: $white;
   }
-
 }
 
-.humancentered,
-.visual {
+.blue {
   background: $blue;
 }
 
-.digitalproduct,
-.physicalproduct {
+.orange {
   background: $orange;
 }
 
-.environmental,
-.fashion {
+.green {
   background: $green;
+}
+
+.yellow {
+  background: $yellow;
 }
 
 /** CLUBS PAGE **/
