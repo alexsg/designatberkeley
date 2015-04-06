@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 
   $(window).scroll(function(){
-    if($(window).scrollTop() > window.innerHeight-200){ // position of menu from the top 
+    if($(window).scrollTop() > window.innerHeight-250){ // position of menu from the top 
       $nav.addClass('active');
     } else{
       $nav.removeClass('active');
