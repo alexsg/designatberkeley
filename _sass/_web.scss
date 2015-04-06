@@ -177,6 +177,20 @@ li.dropdown {
 .hero-homepage {
   min-height: 100%;
   @include hero-bg("https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/t31.0-8/10636818_798585763513551_8512243890731656208_o.jpg");
+
+    .arrow-down {
+      margin: 0 auto;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 90%;
+      left: 50%;
+
+        img {
+          height: auto;
+          width: 75px;
+          margin: 0 auto;
+        }
+    }
 }
 
 .hero-council {
@@ -193,6 +207,15 @@ li.dropdown {
 
 .hero-classes {
   @include hero-bg("../media/classes.jpg");
+}
+
+.hero-basic {
+  background-color: $green;
+  min-height: 300px;
+
+  .centered h1 {
+    padding-top: 140px;
+  }
 }
 
 h3#rotate {

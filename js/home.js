@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  $.scrollIt();
+
   var $nav = $('.scroll-nav');
 
 
