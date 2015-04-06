@@ -430,11 +430,13 @@ input.button-blue {
 
 
 .whatis {
-  min-height: 800px;
+  height: 600px;
   padding: $unit*10;
 
   img {
-    margin-bottom: $unit*10;
+    margin: $unit*5 auto;
+    max-width: 75%;
+    display: block;
   }
 
   h2 {
