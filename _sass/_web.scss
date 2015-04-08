@@ -169,10 +169,20 @@ li.dropdown {
   min-height: 500px;
   margin-top: -64px;
 
-  .centered h1 {
+  .preheader {
+    font-size: 1.25em;
+    font-weight: 100;
+  }
+
+  h1 {
+    font-size: 3.8em;
+  }
+
+  .centered {
     padding-top: 225px;
   }
 }
+
 
 .hero-homepage {
   min-height: 100%;
@@ -436,6 +446,7 @@ input.button-blue {
   img {
     margin: $unit*5 auto;
     max-width: 75%;
+    max-height: 350px;
     display: block;
   }
 
