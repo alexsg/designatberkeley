@@ -10,7 +10,7 @@ $(document).ready(function(){
    **/
   var $rotate = $('#rotate');
   if ($rotate) {
-    $rotate.text("the perfect fusion of creativity and logic|a way of thinking, a pursuit, a process|interdisciplinary problem-solving|everywhere, everything|iterating on a problem to find the best solution|a way to enhance people's lives");
+    $rotate.text("the perfect fusion of creativity and logic|a way of thinking, a pursuit, a process|interdisciplinary problem-solving|iterating on a problem to find the best solution|a way to enhance people's lives");
   }
 
 
