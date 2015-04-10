@@ -169,10 +169,20 @@ li.dropdown {
   min-height: 500px;
   margin-top: -64px;
 
-  .centered h1 {
+  .preheader {
+    font-size: 1.25em;
+    font-weight: 100;
+  }
+
+  h1 {
+    font-size: 3.8em;
+  }
+
+  .centered {
     padding-top: 225px;
   }
 }
+
 
 .hero-homepage {
   min-height: 100%;
@@ -261,7 +271,10 @@ a {
 }
 
 
-
+.post-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 
 .resources-blurb {
@@ -428,7 +441,6 @@ input.button-blue {
   max-width: 100%;
 }
 
-
 .whatis {
   height: 600px;
   padding: $unit*10;
@@ -436,6 +448,7 @@ input.button-blue {
   img {
     margin: $unit*5 auto;
     max-width: 75%;
+    max-height: 300px;
     display: block;
   }
 
