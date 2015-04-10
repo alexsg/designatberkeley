@@ -178,6 +178,10 @@ li.dropdown {
     font-size: 3.8em;
   }
 
+  h3 {
+    margin-bottom: 0;
+  }
+
   .centered {
     padding-top: 225px;
   }
@@ -272,7 +276,6 @@ a {
 
 
 .post-content {
-  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -291,9 +294,6 @@ section {
   padding: $unit*10 0;
 }
 
-.subhead {
-  margin-bottom: $unit*6;
-}
 
 .getinvolved-thirds {
   padding-bottom: $unit*5;
