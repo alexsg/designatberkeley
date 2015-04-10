@@ -459,6 +459,23 @@ input.button-blue {
   p {
     color: $white;
   }
+
+  img {
+    &.env {
+      margin-top: $unit*20;
+      margin-bottom: $unit*20;
+    }
+    &.game {
+      margin-top: $unit*15;
+      margin-bottom: $unit*15;
+    }
+
+    &.eng {
+      margin-top: $unit*10;
+      margin-bottom: $unit*10;
+    }
+
+  }
 }
 
 .blue {
@@ -476,6 +493,7 @@ input.button-blue {
 .yellow {
   background: $yellow;
 }
+
 
 /** CLUBS PAGE **/
 .club {
