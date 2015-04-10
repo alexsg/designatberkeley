@@ -441,6 +441,10 @@ input.button-blue {
   max-width: 100%;
 }
 
+.altname {
+  font-weight: 500;
+}
+
 .whatis {
   height: 600px;
   padding: $unit*10;
@@ -458,6 +462,9 @@ input.button-blue {
   }
   p {
     color: $white;
+    position: absolute;
+    margin-bottom: 25%;
+    margin-right: $unit*10;
   }
 
   img {
@@ -466,13 +473,13 @@ input.button-blue {
       margin-bottom: $unit*20;
     }
     &.game {
-      margin-top: $unit*15;
-      margin-bottom: $unit*15;
+      margin-top: $unit*14.8;
+      margin-bottom: $unit*14.8;
     }
 
     &.eng {
-      margin-top: $unit*10;
-      margin-bottom: $unit*10;
+      margin-top: $unit*13;
+      margin-bottom: $unit*13;
     }
 
   }
