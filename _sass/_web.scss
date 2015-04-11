@@ -31,9 +31,15 @@ body, html {
 
 a {
   text-decoration: none;
-  color: $blue;
+  color: $black;
 }
 
+.page-content {
+  a {
+    text-decoration: none;
+    color: $blue;
+  }
+}
 
 /** NAVIGATION BAR **/
 $nav-height: 64px;
@@ -269,10 +275,6 @@ p {
   font-size: .8em;
 }
 
-a {
-  &:hover {
-  }
-}
 
 
 .post-content {
