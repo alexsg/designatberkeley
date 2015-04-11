@@ -484,6 +484,11 @@ input.button-blue {
       margin-bottom: $unit*13;
     }
 
+    &.anim {
+      margin-top: $unit*10;
+      margin-bottom: $unit*10;
+    }
+
   }
 }
 

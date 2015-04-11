@@ -22,10 +22,21 @@ $(document).ready(function(){
 
   var design_categories = ["Computer Graphics and Animation", "Digital Product Design", "Enterprise Design", "Environmental Design", "Game Design", "Human-Centered Design", "Interdisciplinary", "Physical Product Design", "Visual Design"];
 
+
+// data-scroll-nav="0"
+
+  var cat_div = "<p>| ";
+  for(var i = 0; i < design_categories.length; i++) {
+    // console.log(design_categories[i].replace(/ /g, "-"));
+    cat_div += "<a data-scroll-nav='"+i+"'>" + design_categories[i] + "</a> | ";
+  }
+  cat_div += "</p>";
+  $('#category-list').html(cat_div);
+
   var div = ""
   for(var i = 0; i < design_categories.length; i++) {
     // console.log(design_categories[i].replace(/ /g, "-"));
-    div += "<div id='" + design_categories[i].replace(/ /g, "-") + "'><h3>" + design_categories[i] + "</h3></div>";
+    div += "<div id='" + design_categories[i].replace(/ /g, "-") + "' data-scroll-index='"+i+"'><h3>" + design_categories[i] + "</h3></div>";
   }
   $('#course-list').html(div);
 
@@ -43,17 +54,19 @@ $(document).ready(function(){
     //   continue;
     // }
 
-    var div_id = "#"+category.replace(/ /g, "-").replace(/\//g, "-");
+    var div_id = "#"+category.replace(/ /g, "-");
+    // console.log($('#Human-Centered-Design'));
     var current_div_html = $(div_id).html();
 
-    str += current_div_html + "<br />";
+    str += current_div_html + "";
     str += "<a href='http://guide.berkeley.edu/search/?P=" + dept + " " + number + "' target = '_blank'>" + dept + " " + number + "</a>";
     str += ": " + title;
-    // str +="<br /><br />";
-
+    str +="<br /><br />";
+    $(div_id).html(str);
+    str = "";
   }
 
-  // $('#course-list').html(str);
+
 
   // console.log(data)
   // [
@@ -78,8 +91,9 @@ $(document).ready(function(){
     </div>
   </div>
   <section>
-    <div class="row" id="course-list" class="page-content">
-
+    <div class="row" id="category-list">
+    </div>
+    <div class="row" id="course-list">
       <!-- <p class="post-content">
         {{ content }}
       </p> -->
