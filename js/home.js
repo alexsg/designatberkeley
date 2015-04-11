@@ -1,5 +1,7 @@
 $(document).ready(function(){
-  $.scrollIt();
+  $.scrollIt({
+    topOffset: -64           // offste (in px) for fixed top navigation
+  });
 
   var $nav = $('.scroll-nav');
 
