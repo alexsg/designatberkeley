@@ -2,8 +2,10 @@ Category,Dept,Number,Title
 Computer Graphics and Animation,CNM,190,Advanced Digital Animation
 Computer Graphics and Animation,COMPSCI,194,Advanced Digital Animation
 Computer Graphics and Animation,COMPSCI,98-3/198-3,UCBUGG: 3D Modeling & Animation
-Digital Product Design / Human-Centered Design,COMPSCI,160,User Interface Design and Development
-Digital Product Design / Visual Design,COMPSCI,98 / 198,Web Design Decal
+Digital Product Design,COMPSCI,160,User Interface Design and Development
+Human-Centered Design,COMPSCI,160,User Interface Design and Development
+Digital Product Design,COMPSCI,98 / 198,Web Design Decal
+Visual Design,COMPSCI,98 / 198,Web Design Decal
 Enterprise Design,UGBA,190T,Innovation and Design Thinking in Business
 Enterprise Design,ECON,C110,Game Theory in the Social Sciences
 Enterprise Design,SOCIOL,121,Innovation and Entrepreneurship: Social and Cultural Context
@@ -25,8 +27,10 @@ Environmental Design,CY PLAN,C240,Theories of Urban Form and Design
 Environmental Design,LD ARCH,C250,Theories of Urban Form and Design
 Environmental Design,CEE,209,Design for Sustainable Communities
 Environmental Design,ENV DES,170,The Social Art of ARCH
-Environmental Design / Human-Centered Design,ARCH,212,"Body-Conscious Design: Shoes, Chairs, Rooms, and Beyond"
-Environmental Design / Human-Centered Design,LD ARCH,140,Social and Psychological Factors in Open Space Design
+Environmental Design,ARCH,212,"Body-Conscious Design: Shoes, Chairs, Rooms, and Beyond"
+Human-Centered Design,ARCH,212,"Body-Conscious Design: Shoes, Chairs, Rooms, and Beyond"
+Environmental Design,LD ARCH,140,Social and Psychological Factors in Open Space Design
+Human-Centered Design,LD ARCH,140,Social and Psychological Factors in Open Space Design
 Game Design,"ART, FILM","178,178.10",Game Design Methods
 Human-Centered Design,COMPSCI,298-48,HCI Design Clinic
 Human-Centered Design,IEOR Research,170,Industrial Design and Human Factors
@@ -49,17 +53,23 @@ Interdisciplinary,COG SCI,165,PSYCH of Creativity
 Interdisciplinary,PSYCH,C103,PSYCH of Creativity
 Interdisciplinary,"HISTORY, ISF","C182C, C100G STS C100","Science, Technology, and Society"
 Interdisciplinary,INFO,290,"Re-imagining the Body: Design, Data, Values and Intersectionality"
-Physical Product Design / Human-Centered Design,UGBA,190T,Introduction to New Product Development
-Physical Product Design / Human-Centered Design,MEC ENG,110,Introduction to New Product Development
-Physical Product Design / Human-Centered Design,DES INV,190 P,Design Competition: Interactive Seating
-Physical Product Design / Human-Centered Design / Digital Product Design,INFO,C262,Theory and Practice of Tangible User Interfaces
-Physical Product Design / Human-Centered Design / Digital Product Design,CNM,C262,Theory and Practice of Tangible User Interfaces
-Physical Product Design / Human-Centered Design / Digital Product Design,CNM,"290, 203","Critical Making: Materials, Protocols, and Culture"
+Human-Centered Design,UGBA,190T,Introduction to New Product Development
+Physical Product Design,MEC ENG,110,Introduction to New Product Development
+Physical Product Design,DES INV,190 P,Design Competition: Interactive Seating
+Human-Centered Design,DES INV,190 P,Design Competition: Interactive Seating
+Physical Product Design,INFO,C262,Theory and Practice of Tangible User Interfaces
+Digital Product Design,INFO,C262,Theory and Practice of Tangible User Interfaces
+Human-Centered Design,CNM,C262,Theory and Practice of Tangible User Interfaces
+Physical Product Design,CNM,"290, 203","Critical Making: Materials, Protocols, and Culture"
+Human-Centered Design,CNM,"290, 203","Critical Making: Materials, Protocols, and Culture"
+Digital Product Design,CNM,"290, 203","Critical Making: Materials, Protocols, and Culture"
 Visual Design,COMPSCI,294.1,Visualization
 Visual Design,COMPSCI,98 / 198,Typography Decal
 Visual Design,COMPSCI,98 / 198,Innovative Design Photoshop + Illustrator Decal
 Visual Design,COMPSCI,98 / 198,Principles of Graphic Design Decal
 Visual Design,ART,98 / 198,UCBUGG: Art and Story
 Visual Design,ARCH,98 / 198,Intro to Digital Photography
-Visual Design / Environmental Design,HISTART,185A,"Art, ARCH, and Design in the U.S."
-Visual Design / Environmental Design,HISTART,185A,American ARCH: Domestic Forms
+Visual Design,HISTART,185A,"Art, ARCH, and Design in the U.S."
+Environmental Design,HISTART,185A,"Art, ARCH, and Design in the U.S."
+Visual Design,HISTART,185A,American ARCH: Domestic Forms
+Environmental Design,HISTART,185A,American ARCH: Domestic Forms
