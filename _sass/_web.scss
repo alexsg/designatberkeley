@@ -431,8 +431,13 @@ footer {
       margin-bottom: 4*$unit;
     }
   }
+}
 
-
+//this is for category-list on classes page
+.fixed-nav {
+  position: fixed;
+  top: 70px;
+  width: 400px;
 }
 
 /* MAILCHIMP MAILING LIST FORM STYLES BELOW */
