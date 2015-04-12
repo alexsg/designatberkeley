@@ -387,10 +387,10 @@ section {
 
 
 .button-inverted-blue {
-  border: 2px solid $white;
+  background-color: $dark-blue;
 
   &:hover {
-    background-color: rgba(256, 256, 256, .3);
+    background-color: #0D7E98;
   }
 }
 
