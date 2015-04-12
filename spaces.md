@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: basic
 title: Spaces
 permalink: /spaces/
 published: true
