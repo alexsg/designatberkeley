@@ -308,6 +308,13 @@ section {
     width: 75%;
     height: auto;
   }
+
+  a:hover {
+    h4 {
+      color: $orange;
+    }
+
+  }
 }
 
 .centered {
@@ -371,8 +378,7 @@ section {
   border: 2px solid $white;
 
   &:hover {
-    background-color: $white;
-    color: $blue;
+    background-color: rgba(256, 256, 256, .3);
   }
 }
 
@@ -386,7 +392,7 @@ section {
   background-color: $orange;
 
   &:hover {
-    background-color: #d8791a;
+    background-color: $dark-orange;
   }
 }
 
@@ -439,9 +445,9 @@ input.button-blue {
 
   &:hover {
     cursor: pointer;
-    border: 2px solid #219bb9;
-    background-color: #219bb9;
-    @include transition(all, 0.5s, ease-in-out);
+    border: 2px solid $dark-blue;
+    background-color: $dark-blue;
+    @include transition(all, 0.3s, ease-in-out);
   }
 }
 
