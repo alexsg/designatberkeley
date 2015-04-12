@@ -296,9 +296,18 @@ section {
   padding: $unit*10 0;
 }
 
+.subhead {
+  margin-bottom: $unit*10;
+}
+
 
 .getinvolved-thirds {
   padding-bottom: $unit*5;
+
+  img {
+    width: 75%;
+    height: auto;
+  }
 }
 
 .centered {
