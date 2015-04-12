@@ -480,7 +480,7 @@ input.button-blue {
 }
 
 .whatis {
-  height: 600px;
+  height: 800px;
   padding: $unit*10;
 
   img {
@@ -494,10 +494,14 @@ input.button-blue {
     color: $white;
     text-align: center;
   }
-  p {
+
+  h3 {
+    margin-bottom: 0;
+  }
+  .info {
     color: $white;
     position: absolute;
-    margin-bottom: 25%;
+    margin-bottom: 50%;
     margin-right: $unit*10;
   }
 
@@ -520,7 +524,12 @@ input.button-blue {
       margin-top: $unit*10;
       margin-bottom: $unit*10;
     }
+  }
 
+  .tools {
+    padding-left: 0;
+    margin-left: $unit*5;
+    list-style-type: none;
   }
 }
 

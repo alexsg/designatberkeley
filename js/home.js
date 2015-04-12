@@ -41,5 +41,29 @@ $(document).ready(function(){
       $nav.removeClass('active');
     }
   });
+/*
+  var bgImages = new Array(
+    "url(https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/t31.0-8/10636818_798585763513551_8512243890731656208_o.jpg)",
+    "url(http://c4.staticflickr.com/4/3891/15161747008_00f52509cf_b.jpg)", 
+    "url(http://c4.staticflickr.com/4/3924/15159558857_a1ffd166f9_h.jpg)"
+  )
 
+  var $hero = $('.hero-homepage');
+
+  var curr = 0;
+  function switchHero() {
+    $hero.animate({marginLeft: -100%}, 1000, function() {
+      $(this)
+        .css('background-image', bgImages[curr])
+        .animate({opacity: 1});
+    });
+    if (curr == bgImages.length-1) {
+      curr = 0;
+    } else {
+      curr += 1;
+    }
+  };
+
+  setInterval(switchHero, 3000);
+*/
 });
