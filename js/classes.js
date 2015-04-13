@@ -11,10 +11,8 @@ $(document).ready(function(){
   });
 
 
-
-
   $.ajax({
-    url: "/design_class_spreadsheet.csv",
+    url: "/classes.csv",
     async: false,
     success: function (csvd) {
         data = $.csv.toObjects(csvd);
