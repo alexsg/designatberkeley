@@ -10,6 +10,9 @@ $(document).ready(function(){
     }
   });
 
+
+
+
   $.ajax({
     url: "/design_class_spreadsheet.csv",
     async: false,
@@ -26,14 +29,13 @@ $(document).ready(function(){
 
   var cat_div = "";
   for(var i = 0; i < design_categories.length; i++) {
-    cat_div += "<p><a data-scroll-nav='"+i+"'>" + design_categories[i] + "</a></p>";
+    cat_div += "<a data-scroll-nav='"+i+"'><li>" + design_categories[i] + "</li></a>";
   }
-  // cat_div += "</p>";
   $('#category-list').html(cat_div);
 
   var div = ""
   /** Always do i < design_categories because there is an empty line **/
-  for(var i = 0; i < design_categories.length; i++) {
+  for (var i = 0; i < design_categories.length; i++) {
     div += "<div id='" + design_categories[i].replace(/ /g, "-") + "' data-scroll-index='"+i+"'><h3>" + design_categories[i] + "</h3></div>";
   }
   $('#course-list').html(div);
@@ -47,28 +49,29 @@ $(document).ready(function(){
     var number = course["Number"];
     var title = course.Title;
 
-    // if (category.indexOf("/") > -1) {
-    //   console.log("HEY");
-    //   continue;
-    // }
-
     var div_id = "#"+category.replace(/ /g, "-");
-    // console.log($('#Human-Centered-Design'));
     var current_div_html = $(div_id).html();
 
-
-    str += current_div_html + "";
-
+    str += current_div_html + "<li>";
     if (number === "98 / 198") {
       str += "<a href='http://www.decal.org/' target = '_blank'>" + dept + " " + number + "</a>"
     } else {
       str += "<a href='http://guide.berkeley.edu/search/?P=" + dept + " " + number + "' target = '_blank'>" + dept + " " + number + "</a>";
     }
     str += ": " + title;
-    str +="<br /><br />";
+    str +="</li>";
     $(div_id).html(str);
     str = "";
   }
+
+
+
+   /*$(document).scroll(function() {
+    if ($(this).scrollTop() > scroll_graphics) {
+      //$("#Computer-Graphics-and-Animation").addClass('active');
+    }
+   })*/
+
 
 
 
