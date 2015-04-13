@@ -30,10 +30,17 @@ body, html {
 }
 
 
-.page-content {
+.clubs-content {
   a {
-    text-decoration: none;
-    color: $blue;
+    font-weight: 300;
+    color: $black;
+  }
+
+  h3 {
+    margin: $unit 0;
+  }
+  p {
+    font-size: 1em;
   }
 }
 
@@ -284,14 +291,17 @@ p {
 
 
 .resources {
-  height: 100%;
+  padding: $unit*30 0;
 }
 
 .resources-blurb {
   position: absolute;
-  padding-top: $unit*20;
+  padding: $unit*10 0;
   top: 50%;
+}
 
+.img-intro {
+  width: 90%;
 }
 
 
