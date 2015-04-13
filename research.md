@@ -5,11 +5,11 @@ permalink: /research/
 published: true
 ---
 
-<section>
+<section class="page-content">
 
 <div class="row">
 	<div class="large-12 columns">
-		<h2>Project opportunities</h2>
+		<h4>Project opportunities</h4>
 		<p>
 			If you are unsure about where to start looking for research opportunities in design, these resources are here to help match students with specific projects.
 		</p>
@@ -32,11 +32,10 @@ published: true
 
 </div>
 
-<br /><br />
 
-<div class="row">
+<div class="row row-2">
 	<div class="large-12 columns">
-		<h2>Labs focused on design</h2>
+		<h4>Labs focused on design</h4>
 		<p>
 			To find research in specific labs, it is important to speak with the professors or grad students directly about their current research and potential need for undergraduate researchers on their projects.
 		</p>

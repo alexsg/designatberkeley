@@ -571,7 +571,7 @@ input.button-blue {
   min-height: 300px;
 }
 
-.thirds-content {
+.page-content {
   a {
     font-weight: 300;
     color: $black;
@@ -579,9 +579,18 @@ input.button-blue {
 
   h3 {
     margin: $unit 0;
+
+    a {
+      text-decoration: none;
+      font-weight: 500;
+    }
   }
   p {
     font-size: 1em;
+  }
+
+  .row-2 {
+    margin-top: $unit*10;
   }
 }
 
@@ -597,4 +606,9 @@ input.button-blue {
 
 .location {
   font-size: 1em;
+}
+
+
+[class*="column"]+[class*="column"]:last-child {
+  float: left;
 }
