@@ -30,19 +30,6 @@ body, html {
 }
 
 
-.clubs-content {
-  a {
-    font-weight: 300;
-    color: $black;
-  }
-
-  h3 {
-    margin: $unit 0;
-  }
-  p {
-    font-size: 1em;
-  }
-}
 
 /** NAVIGATION BAR **/
 $nav-height: 64px;
@@ -229,6 +216,9 @@ li.dropdown {
   @include hero-bg("../media/clubs.jpg");
 }
 
+.hero-intro {
+  @include hero-bg("../media/intro.jpg")
+}
 .hero-teams {
   @include hero-bg("../media/canoe.png");
 }
@@ -434,27 +424,20 @@ footer {
   .footer-logo {
     width: 150px;
     height: auto;
-    position: absolute;
-    right: 0;
-    margin-top: $unit*5;
-    margin-right: $unit*8;
 
 
     img {
       width: 100%;
       height: auto;
-      position: absolute;
-      bottom: 0;
-      right: 0;
+      margin-left: $unit*5;
+      margin-bottom: $unit*2;
     }
   }
 
   .copyright {
-    margin-right: $unit*5;
-    margin-top: $unit*10;
+    margin-left: $unit*5;
     font-size: .8em;
-    text-align: right;
-    float: right;
+    float: left;
   }
 }
 
@@ -583,7 +566,25 @@ input.button-blue {
 
 
 /** CLUBS PAGE **/
-.club {
+.card {
   padding-bottom: $unit*4;
 }
 
+.thirds-content {
+  a {
+    font-weight: 300;
+    color: $black;
+  }
+
+  h3 {
+    margin: $unit 0;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+
+.location {
+  font-size: 1em;
+
+}

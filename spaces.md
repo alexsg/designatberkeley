@@ -1,8 +1,6 @@
 ---
-layout: basic
+layout: spaces
 title: Spaces
 permalink: /spaces/
 published: true
 ---
-
-Hello
