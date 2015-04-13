@@ -592,6 +592,14 @@ input.button-blue {
   .row-2 {
     margin-top: $unit*10;
   }
+
+
+  .card {
+    &[class*="column"]+[class*="column"]:last-child {
+      float: left;
+    }
+  }
+
 }
 
 .img-wrapper {
@@ -609,6 +617,3 @@ input.button-blue {
 }
 
 
-[class*="column"]+[class*="column"]:last-child {
-  float: left;
-}
