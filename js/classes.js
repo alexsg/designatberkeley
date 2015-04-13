@@ -4,7 +4,6 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
     if($(window).scrollTop() > window.innerHeight-175){ // position of menu from the top 
-      console.log("HELLLOOOO");
       $('#category-list').addClass('fixed-nav');
     } else{
       $('#category-list').removeClass('fixed-nav');
@@ -33,6 +32,7 @@ $(document).ready(function(){
   $('#category-list').html(cat_div);
 
   var div = ""
+  /** Always do i < design_categories because there is an empty line **/
   for(var i = 0; i < design_categories.length; i++) {
     div += "<div id='" + design_categories[i].replace(/ /g, "-") + "' data-scroll-index='"+i+"'><h3>" + design_categories[i] + "</h3></div>";
   }
@@ -56,8 +56,14 @@ $(document).ready(function(){
     // console.log($('#Human-Centered-Design'));
     var current_div_html = $(div_id).html();
 
+
     str += current_div_html + "";
-    str += "<a href='http://guide.berkeley.edu/search/?P=" + dept + " " + number + "' target = '_blank'>" + dept + " " + number + "</a>";
+
+    if (number === "98 / 198") {
+      str += "<a href='http://www.decal.org/' target = '_blank'>" + dept + " " + number + "</a>"
+    } else {
+      str += "<a href='http://guide.berkeley.edu/search/?P=" + dept + " " + number + "' target = '_blank'>" + dept + " " + number + "</a>";
+    }
     str += ": " + title;
     str +="<br /><br />";
     $(div_id).html(str);
