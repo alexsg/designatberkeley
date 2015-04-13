@@ -583,6 +583,11 @@ input.button-blue {
     a {
       text-decoration: none;
       font-weight: 500;
+
+      i {
+        margin-left: $unit;
+        font-size: .7em;
+      }
     }
   }
   p {
@@ -609,10 +614,6 @@ input.button-blue {
   img {
     width: 100%;
 
-    &.dec {
-      height: 100%;
-      width: auto;
-    }
 
   }
 
