@@ -598,3 +598,8 @@ input.button-blue {
 .location {
   font-size: 1em;
 }
+
+
+[class*="column"]+[class*="column"]:last-child {
+  float: left;
+}
