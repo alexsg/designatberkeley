@@ -568,6 +568,7 @@ input.button-blue {
 /** CLUBS PAGE **/
 .card {
   padding-bottom: $unit*4;
+  min-height: 300px;
 }
 
 .thirds-content {
@@ -584,7 +585,16 @@ input.button-blue {
   }
 }
 
+.img-wrapper {
+  height: 170px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+
+  }
+}
+
 .location {
   font-size: 1em;
-
 }
