@@ -568,7 +568,7 @@ input.button-blue {
 /** CLUBS PAGE **/
 .card {
   padding-bottom: $unit*4;
-  min-height: 300px;
+  min-height: 350px;
 }
 
 .page-content {
@@ -592,6 +592,14 @@ input.button-blue {
   .row-2 {
     margin-top: $unit*10;
   }
+
+
+  .card {
+    &[class*="column"]+[class*="column"]:last-child {
+      float: left;
+    }
+  }
+
 }
 
 .img-wrapper {
@@ -601,7 +609,13 @@ input.button-blue {
   img {
     width: 100%;
 
+    &.dec {
+      height: 100%;
+      width: auto;
+    }
+
   }
+
 }
 
 .location {
@@ -609,6 +623,3 @@ input.button-blue {
 }
 
 
-[class*="column"]+[class*="column"]:last-child {
-  float: left;
-}
