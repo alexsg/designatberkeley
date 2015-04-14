@@ -23,7 +23,7 @@ $(document).ready(function(){
     }
   });
 
-  var design_categories = ["Computer Graphics and Animation", "Digital Product Design", "Engineering Design", "Enterprise Design", "Environmental Design", "Game Design", "Human-Centered Design", "Interdisciplinary", "Physical Product Design", "Visual Design"];
+  var design_categories = ["Computer graphics and animation", "Digital product design", "Engineering design", "Enterprise design", "Environmental design", "Game design", "Human-centered design", "Interdisciplinary", "Physical product design", "Visual design"];
 
   var cat_div = "";
   for(var i = 0; i < design_categories.length; i++) {
