@@ -39,7 +39,7 @@ published: true
 		</div>
 		<div class="large-4 columns centered">
 			<div class="img-wrapper">
-				<img src="http://fineprintnyc.com/images/blog/history-of-logos/google/google-logo.png"/>
+				<img src="../media/google-logo.png"/>
 			</div>
 		</div>
 	</div>
