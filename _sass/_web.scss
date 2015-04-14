@@ -616,6 +616,7 @@ input.button-blue {
   }
 }
 
+/** CLASSES PAGE **/
 
 .classes {
 
@@ -637,6 +638,10 @@ input.button-blue {
   }
 }
 
+#course-list li{
+  margin-left: $unit*5;
+}
+
 .location {
   font-size: 1em;
 }
@@ -655,5 +660,15 @@ input.button-blue {
       height: 100%;
       width: auto;
     }
+  }
+}
+
+.logo-wrapper {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: $unit*5;
+
+  img {
+    width: 100%;
   }
 }

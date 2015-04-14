@@ -8,16 +8,15 @@ published: true
 
 <section>
 	<div class="row page-content">
-		<div class="large-12 columns">
-			<img src="/media/logo.png" style="width:25%; height: auto;" />
+		<div class="large-8 columns large-centered">
+			<div class="logo-wrapper">
+				<img src="/media/logo.png"/>
+			</div>
 	  		<p>
-				We are a group of interdisciplinary Berkeley students with the goal of creating and strengthening the design community across campus. We work to promote design education, culture, and awareness.
+				We are a group of interdisciplinary Berkeley students with the goal of creating and strengthening the design community across campus. We work to promote design education, culture, and awareness by hosting numerous design events ranging from prototyping workshops to industry guest speakers to full-day designathons.
 			</p>
 			<p>
-				We have hosted numerous design events, thanks to the support of entities such as Engineering Student Council, Google, and various design groups across campusfrom prototyping workshops to industry guest speakers and designathons.
-			</p>
-			<p>
-				The Design Council meets every Friday from 3pm to 4pm in 360 Hearst Mining Memorial Building.
+				The Design Council meets every Friday 3&ndash;4 PM in 360 Hearst Mining Memorial Building.
 			</p>
 	  	</div>
 	  </div>
