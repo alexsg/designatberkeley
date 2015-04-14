@@ -3,7 +3,7 @@ $(document).ready(function(){
   // console.log(table);
 
   $(window).scroll(function(){
-    if($(window).scrollTop() > window.innerHeight-175){ // position of menu from the top 
+    if($(window).scrollTop() > window.innerHeight-70){ // position of menu from the top 
       $('#category-list').addClass('fixed-nav');
     } else{
       $('#category-list').removeClass('fixed-nav');
@@ -23,7 +23,7 @@ $(document).ready(function(){
     }
   });
 
-  var design_categories = ["Computer Graphics and Animation", "Digital Product Design", "Enterprise Design", "Environmental Design", "Game Design", "Human-Centered Design", "Interdisciplinary", "Physical Product Design", "Visual Design"];
+  var design_categories = ["Computer Graphics and Animation", "Digital Product Design", "Engineering Design", "Enterprise Design", "Environmental Design", "Game Design", "Human-Centered Design", "Interdisciplinary", "Physical Product Design", "Visual Design"];
 
   var cat_div = "";
   for(var i = 0; i < design_categories.length; i++) {
