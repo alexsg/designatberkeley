@@ -7,38 +7,21 @@
 
   {% include scrollnav.html %}
 
-
-  <div class="hero hero-clubs inverted parallax">
+  <div class="hero hero-research inverted">
     <div class="centered">
       <h1>{{ page.title }}</h1>
     </div>
   </div>
-
-  <section class="page-content">
-    <div class="row">
-      <div class="large-12 columns">
-        </p>Blurb</p>
-      </div>
-    </div>
+  <section>
+    <header class="row centered">
+    </header>
 
     <div class="row">
-      <div class="club large-6 columns">
-        <img src="http://beehive.berkeley.edu/assets/header_coe.gif" />
-        <h3><a href="dec.berkeley.edu" target="_blank">Design Engineering Collaborative </a></h3>
-        <p>A student hub for hands-on engineering design. Interdisciplinary projects launch here, every day.</p>
-
-        <a><i class="fa fa-envelope-o"></i> Email</a>
-      </div>
-
-      <div class="club large-6 columns">
-        <img src="http://engineeringdesign.berkeley.edu/wp-content/uploads/2014/04/dec-500x333.jpg" />
-        <h3><a href="dec.berkeley.edu" target="_blank">Design Engineering Collaborative </a></h3>
-        <p>A student hub for hands-on engineering design. Interdisciplinary projects launch here, every day.</p>
-
-        <a><i class="fa fa-envelope-o"></i> Email</a>
-      </div>
-
+      <p class="post-content">
+        {{ content }}
+      </p>
     </div>
+
   </section>
 
   {% include footer.html %}

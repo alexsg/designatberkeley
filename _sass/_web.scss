@@ -219,12 +219,29 @@ li.dropdown {
 .hero-intro {
   @include hero-bg("../media/intro.jpg")
 }
+
+.hero-spaces {
+  @include hero-bg("../media/spaces.jpg");
+}
+
 .hero-teams {
   @include hero-bg("../media/canoe.png");
 }
 
 .hero-classes {
   @include hero-bg("../media/classes.jpg");
+}
+
+.hero-research {
+  @include hero-bg("../media/research.jpg");
+}
+
+.hero-contact {
+  @include hero-bg("../media/contact.jpg");
+}
+
+.hero-getinvolved {
+  @include hero-bg("../media/get-involved.jpg");
 }
 
 .hero-basic {

@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: research
 title: Research
 permalink: /research/
 published: true
