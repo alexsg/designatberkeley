@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+</html>
+
+<body>
+
+  {% include scrollnav.html %}
+
+  <div class="hero hero-getinvolved inverted">
+    <div class="centered">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+  <section>
+    <header class="row centered">
+    </header>
+
+    <div class="row">
+      <h3>
+        The best way to learn about design is to get involved on campus, whether through <a>classes</a>, <a>clubs</a>, <a>competition teams</a>, <a>research</a>, or the <a>design council</a>. Below, read some stories about the different ways in which current students found their place in design on campus.
+      </h3>
+    </div>
+
+    <div class="row">
+      {% for post in site.categories.get-involved %}
+        <div class="large-3 columns">
+          <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p>{{ post.excerpt | truncatehtml | truncatewords: 60 }}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+  </section>
+
+  {% include footer.html %}
+
+</body>

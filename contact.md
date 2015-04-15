@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: contact
 title: Contact
 permalink: /contact/
 published: true
