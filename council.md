@@ -29,7 +29,7 @@ published: true
 	<div class="row">
 		<div class="large-4 columns centered">
 			<div class="img-wrapper">
-				<img src="http://esc.berkeley.edu/assets/img/escLogo.jpg" />
+				<img src="../media/jacobs.png" />
 			</div>
 		</div>
 		<div class="large-4 columns centered">
