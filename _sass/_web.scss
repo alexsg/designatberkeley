@@ -240,6 +240,10 @@ li.dropdown {
   @include hero-bg("../media/contact.jpg");
 }
 
+.hero-blog {
+  @include hero-bg("../media/blog.jpg");
+}
+
 .hero-getinvolved {
   @include hero-bg("../media/get-involved.jpg");
 }
@@ -458,13 +462,6 @@ footer {
   }
 }
 
-//this is for category-list on classes page
-.fixed-nav {
-  position: fixed;
-  top: 70px;
-  width: 400px;
-}
-
 /* MAILCHIMP MAILING LIST FORM STYLES BELOW */
 input {
   border: 2px solid rgba(39, 44, 56, 0.4); 
@@ -635,6 +632,13 @@ input.button-blue {
 }
 
 /** CLASSES PAGE **/
+
+//this is for category-list on classes page
+.fixed-nav {
+  position: fixed;
+  top: 70px;
+  width: 400px;
+}
 
 .classes {
 

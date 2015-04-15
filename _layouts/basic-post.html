@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+</html>
+
+<body>
+
+  {% include blognav.html %}
+
+<br /><br />
+
+  <section>
+    <header class="row centered">
+    </header>
+
+    <div class="row">
+      <div class="large-9 large-centered columns">
+        <p class="post-content">
+          {{ content }}
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  {% include footer.html %}
+
+</body>
