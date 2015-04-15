@@ -664,6 +664,7 @@ input.button-blue {
   }
 }
 
+
 .logo-wrapper {
   width: 200px;
   margin: 0 auto;
@@ -673,3 +674,14 @@ input.button-blue {
     width: 100%;
   }
 }
+
+
+.contact-links {
+  float: right;
+  font-size: 1.5em;
+
+  a:hover {
+    color: $blue;
+  }
+}
+
