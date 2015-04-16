@@ -1,0 +1,49 @@
+/*Responsive Styles*/
+
+@media screen and (max-width: 650px) {
+    .scroll-nav {
+        
+        nav li {
+            width: 100%;
+            float: left;
+            position: relative;
+        }
+        li a {
+          color: #272c38;
+        }
+
+        nav {
+            border-bottom: 0;
+            background-color: #272c38;
+        }
+        nav ul {
+            display: none;
+            background-color: #ffffff;
+            width: 100%;
+            height: auto;
+        }
+
+        .dropdown-menu {
+          display: block; 
+        }
+        nav a#pull {
+            display: block;
+            width: 100%;
+            position: relative;
+        }
+        nav a#pull:after {
+            content:"";
+            background: url('/media/nav-icon.png') no-repeat;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            position: absolute;
+            right: 15px;
+            top: 10px;
+        }
+    }
+
+    .active {
+      display: none;
+    }
+}

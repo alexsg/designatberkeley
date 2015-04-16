@@ -85,3 +85,35 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
+
+.post {
+  a {
+    color: $black;
+  }
+}
+
+.post-style {
+
+  blockquote {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding-left: 15px;
+    border-left: 3px solid $grey;
+  }
+
+  img {
+    height: 500px;
+    width: auto;
+  }
+
+  p, ul {
+    font-size: $base-font-size*1.1;
+  }
+
+  a {
+    color: $black;
+  }
+
+}

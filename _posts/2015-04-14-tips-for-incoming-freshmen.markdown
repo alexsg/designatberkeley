@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Tips for Incoming Freshmen from a Freshman"
+date:   2015-04-14 18:25:05
+author: Alex Yao
+categories: get-involved
+---
+
+Take interesting classes. You have four years of college to explore what you want to do and your freshman year is an opportunity to branch out into as many areas as possible. Don’t just take classes for the grade; take classes with interesting professors and topics that interest you. First semester, I didn’t take classes that I was actually interested in. It was frustrating because I knew I had extra time to take more interesting classes and I wasn’t getting the most out of my semester. This semester I decided to take INFO 290, a class where I was surrounded by graduate students and probably had no reason to take. However, I was interested in the topics that were being discussed and I became friends some really cool people. You might not be able to get into upper division or graduate student classes, but if you talk to the professor and show your interest they might let you in or allow you to audit the class. DeCals are also amazing because you can explore some very interesting classes in just about any topic. The **Design DeCal** provided a great foundation for my introduction into design.
+
+You might feel overwhelmed the first few months of college and that’s normal. The campus is huge. Make it smaller by joining clubs and organizations. Get involved in as many club meetings/events that you can handle, as early on as possible, during the 1st and 2nd semester so you can figure out which ones are the right fit for you. There are thousands of rooms on campus and its up to you to find a place where you belong. The first time I walked into my first **Design Engineering Collaborative** (DEC) meeting, in the **Bridges Lounge (the SHED)** at Bechtel, I felt comfortable hanging out in this space with everyone there. Now I spend most of my free time there with all of my friends.
+
+Choose your top 2-3 choices and commit to them. You CAN be a leader as a freshman in those organizations; make suggestions about events to organize, and volunteer to take responsibility of those events. Contribute to making the organization better and show your dedication. When I joined **Design Council** in my second semester, someone suggested that we should host a **3D Printing Designathon**. I volunteered to take charge of the event and brought in people from **3DMC** and my organization, **DEC**, to help me put together the event. 
+
+Don’t just stay in your room. You have nothing to lose, put yourself out there. What makes UC Berkeley a great university is the community and not the place. Find cool people, upperclassmen and leaders in the community and ask them for advice, find them on Facebook, and become friends with them. The design community at Berkeley is a relatively close community and once you get to know a few people, you end up knowing everyone else! People are always willing to teach you about design and provide advice for getting more involved.

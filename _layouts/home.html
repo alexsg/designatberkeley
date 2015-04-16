@@ -18,16 +18,16 @@
 	<section class="homepage resources inverted">
 		
 		<div class="row">
-			<div class="large-6 columns">
+			<div class="large-6 columns medium-6 columns">
 				<img class="img-intro" src="../media/intro.png" />
 			</div>
-			<div class="large-6 columns">
+			<div class="large-6 columns medium-6 columns">
 				<div class="resources-blurb">
 					<h2 class="inverted">Get started</h2>
 					<p>
 						Design is more than how something looks. It's how it works. Discover the diverse range of design disciplines and how you can apply design thinking to any field of interest.
 					</p>
-					<a class="button button-inverted-blue" href="/intro">Get started</a>
+					<a class="button button-inverted-blue" href="/intro">Learn more</a>
 				</div>
 			</div>
 		</div>
@@ -46,35 +46,37 @@
 				</div>
 			</div>
 			<div class="row getinvolved-thirds">
-				<div class="large-4 columns centered">
-          		<a href="/classes">
+				<div class="large-12 columns">
+					<div class="large-4 columns centered">
+	          		<a href="/classes">
 
-	  				<img src="../media/classes.png" />
+		  				<img src="../media/classes.png" />
 
-  					<h4>Take Classes</h4>
-  					<p>
-  						Find classes to further your design education.
-  					</p>
-          		</a>
-				</div>
-				<div class="large-4 columns centered">
-          		<a href="clubs">
-	  				<img src="../media/clubs.png" />
-  					<h4>Join Clubs</h4>
-  					<p>
-  						Meet passionate peers and expand your portfolio through project.
-  					</p>
-          		</a>
-				</div>
-				<div class="large-4 columns centered">
-          		<a href="council">
-	  				<img src="../media/council.png" />
+	  					<h4>Take Classes</h4>
+	  					<p>
+	  						Find classes to further your design education.
+	  					</p>
+	          		</a>
+					</div>
+					<div class="large-4 columns centered">
+	          		<a href="clubs">
+		  				<img src="../media/clubs.png" />
+	  					<h4>Join Clubs</h4>
+	  					<p>
+	  						Meet passionate peers and expand your portfolio through project.
+	  					</p>
+	          		</a>
+					</div>
+					<div class="large-4 columns centered">
+	          		<a href="council">
+		  				<img src="../media/council.png" />
 
-  					<h4>Come to Council</h4>
-  					<p>
-  						Become a student leader in design and help make an impact.
-  					</p>
-          		</a>
+	  					<h4>Come to Council</h4>
+	  					<p>
+	  						Become a student leader in design and help make an impact.
+	  					</p>
+	          		</a>
+					</div>
 				</div>
 			</div>
 			<div class="large-12 columns centered">
@@ -94,10 +96,11 @@
 		<div class="row">
 
 			  {% for post in site.posts limit:4 %}
-			    <div class="large-3 columns">
-						<span class="date">{{ post.date | date: "%d %B %Y" }}</span>
+			    <div class="large-6 columns">
+						<span class="date">{{ post.date | date: "%d %B %Y" }}</span><br />
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-						<p>{{ post.excerpt | truncatehtml | truncatewords: 60 }}</p>
+						<p>{{ post.excerpt | truncatehtml | truncatewords: 35 }}</p>
+						<br />
 					</div>
 			  {% endfor %}
 

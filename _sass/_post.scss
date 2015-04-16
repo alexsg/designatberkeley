@@ -1,0 +1,61 @@
+/*Responsive Styles*/
+
+@media screen and (max-width: 650px) {
+    // nav { 
+    //     height: auto;
+    //     position: fixed;
+    // }
+    // nav ul {
+    //     width: 100%;
+    //     display: block;
+    //     height: auto;
+    // }
+    nav li {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    // nav li a {
+    //     border-bottom: 1px solid #576979;
+    //     border-right: 1px solid #576979;
+    // }
+    li a {
+      color: $black;
+    }
+
+    nav {
+        border-bottom: 0;
+        background-color: $grey;
+    }
+    nav ul {
+        display: none;
+        background-color: $white;
+        width: 100%;
+        height: auto;
+    }
+
+    .dropdown-menu {
+      display: block; 
+    }
+    nav a#pull {
+        display: block;
+        // background-color: #283744;
+        // text-align: right;
+        width: 100%;
+        position: relative;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url('/media/nav-icon.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+    .scroll-nav, .active {
+      display: none;
+    }
+}
