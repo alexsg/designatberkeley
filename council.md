@@ -26,7 +26,7 @@ published: true
 			<h3>Thank you to our supporters and partners</h3>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row sponsors">
 		<div class="large-4 medium-4 columns centered">
 			<div class="img-wrapper">
 				<img src="../media/jacobs.png" />
