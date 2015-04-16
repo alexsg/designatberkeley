@@ -14,7 +14,7 @@ published: true
 			If you are unsure about where to start looking for research opportunities in design, these resources are here to help match students with specific projects.
 		</p>
 	</div>
-	<div class="large-6 columns">
+	<div class="large-6 columns medium-6 columns">
 		<div class="img-wrapper">
 		  <img src="http://engineeringdesign.berkeley.edu/wp-content/uploads/2014/04/beehive.gif" />
 		</div>
@@ -24,7 +24,7 @@ published: true
 	  </p>
 	</div>
 
-	<div class="large-6 columns">
+	<div class="large-6 columns medium-6 columns">
 		<div class="img-wrapper">
 		  	<img src="http://research.berkeley.edu/images/urap-logo-sm.jpg" />
 		  </div>
@@ -44,7 +44,7 @@ published: true
 			To find research in specific labs, it is important to speak with the professors or grad students directly about their current research and potential need for undergraduate researchers on their projects. Below are two research institutes which students with interest in design may want to consider.
 		</p>
 	</div>
-	<div class="large-6 columns">
+	<div class="large-6 columns medium-6 columns">
 	  	<div class="img-wrapper bid">
 			<img src="http://bid.berkeley.edu/images/bid_logo.gif" />
 		</div>
@@ -54,7 +54,7 @@ published: true
 	  </p>
 	</div>
 
-	<div class="large-6 columns">
+	<div class="large-6 columns medium-6 columns">
 		<div class="img-wrapper">
 		  	<img src="http://bcnm.berkeley.edu/wp-content/themes/Cutline-1.4-3ColumnSplit/images/logo6.png"/>
 		  </div>
