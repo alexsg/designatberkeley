@@ -231,6 +231,11 @@ nav a#pull {
     .scroll-nav, .active {
       display: none;
     }
+
+
+    .dropdown-menu.get-started {
+      width: 100%;
+    }
 }
 
 
@@ -324,6 +329,20 @@ nav a#pull {
   .centered h1 {
     padding-top: 140px;
   }
+}
+
+/** responsive hero **/
+@media screen and (max-width: 667px) {
+  .hero {
+    h1 {
+      font-size: 2.5em;
+    }
+
+    .preheader {
+      font-size: 1.2em;
+    }
+  }
+
 }
 
 h3#rotate {
@@ -526,6 +545,23 @@ footer {
   }
 }
 
+
+@media screen and (max-width: 667px) {
+  footer {
+    .footer-logo,
+    .copyright,
+    .contact-links {
+      text-align: center;
+      margin: 0 auto;
+      float: none;
+    }
+
+    .footer-logo img {
+      margin-left: 0;
+    }
+  }
+}
+
 /* MAILCHIMP MAILING LIST FORM STYLES BELOW */
 input {
   border: 2px solid rgba(39, 44, 56, 0.4); 
@@ -626,6 +662,19 @@ input.button-blue {
   }
 }
 
+/** Responsive whatis **/
+@media screen and (max-width: 668px) {
+  .disciplines .row {
+    max-width: 100%;
+    display: block;
+  }
+  .whatis {
+    width: 100%;
+    display: block;
+    flex: none;
+  }
+}
+
 .blue {
   background: $blue;
 }
@@ -705,6 +754,13 @@ input.button-blue {
   width: 400px;
 }
 
+
+@media screen and (max-width: 1025px) {
+  .fixed-nav {
+    position: static;
+  }
+}
+
 .classes {
 
   .classes-blurb {
@@ -770,4 +826,5 @@ input.button-blue {
     color: $blue;
   }
 }
+
 

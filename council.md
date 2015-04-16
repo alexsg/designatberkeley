@@ -27,17 +27,17 @@ published: true
 		</div>
 	</div>
 	<div class="row">
-		<div class="large-4 columns centered">
+		<div class="large-4 medium-4 columns centered">
 			<div class="img-wrapper">
 				<img src="../media/jacobs.png" />
 			</div>
 		</div>
-		<div class="large-4 columns centered">
+		<div class="large-4 medium-4 columns centered">
 			<div class="img-wrapper">
 				<img src="http://citris-uc.org/wp-content/uploads/2014/02/CITRIS_rectangle_forlightbkgrnd.png" />
 			</div>
 		</div>
-		<div class="large-4 columns centered">
+		<div class="large-4 medium-4 columns centered">
 			<div class="img-wrapper">
 				<img src="../media/google-logo.png"/>
 			</div>
