@@ -51,9 +51,19 @@ nav {
   }
 
   .home-link {
-    padding: $unit*4 0;
     display: inline-block;
     float: left;
+    font-weight: 500;
+    margin: $unit*4 0;
+
+    a {
+      padding: 23px 20px;
+
+      &:hover {
+        background: $blue;
+        color: $white;
+      }
+    }
   }
 
   .nav-link > a {
@@ -126,7 +136,7 @@ li.dropdown {
     background-color: $white;
 
     &.get-started {
-      width: 143px;
+      width: 144px;
     }
 
     li {
@@ -331,25 +341,42 @@ nav a#pull {
   }
 }
 
+h3#rotate {
+  font-size: 1.75em;
+  font-style: italic;
+  font-weight: 100;
+}
 /** responsive hero **/
 @media screen and (max-width: 667px) {
   .hero {
+    min-height: 50%;
+
+
     h1 {
       font-size: 2.5em;
     }
 
     .preheader {
       font-size: 1.2em;
+      font-weight: 300;
     }
+
+
+    .centered {
+      padding-top: 35%;
+    }
+  }
+
+  .mid {
+    top: 25%;
+  }
+
+  h3#rotate {
+    font-weight: 300;
   }
 
 }
 
-h3#rotate {
-  font-size: 1.75em;
-  font-style: italic;
-  font-weight: 700;
-}
 
 .centered {
   h1 {
@@ -729,6 +756,9 @@ input.button-blue {
 
 
   .card {
+    p {
+      font-size: 1em;
+    }
     &[class*="column"]+[class*="column"]:last-child {
       float: left;
     }
