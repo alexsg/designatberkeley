@@ -106,7 +106,7 @@ nav {
   }
 
   &.active {
-    z-index: 100000000;
+    z-index: 100000;
     visibility: visible;
     opacity: 100;
     position: fixed;
@@ -361,6 +361,10 @@ h3#rotate {
     .preheader {
       font-size: 1.2em;
       font-weight: 300;
+    }
+
+    #rotate {
+      font-weight: 400;
     }
 
 
