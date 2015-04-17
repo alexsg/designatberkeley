@@ -199,6 +199,7 @@ nav a#pull {
   //     padding-bottom: 350px;
   // }
 
+
     nav li {
         width: 100%;
         float: left;
@@ -208,6 +209,7 @@ nav a#pull {
       color: $black;
     }
     nav {
+        z-index: 1000000;
         border-bottom: 0;
     }
     nav ul.full-nav-links {
