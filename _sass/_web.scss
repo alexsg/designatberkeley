@@ -255,14 +255,18 @@ nav a#pull {
 .hero {
   min-height: 500px;
   margin-top: -64px;
+  z-index: 0;
 
   .preheader {
     font-size: 1.25em;
     font-weight: 100;
+    z-index: 0;
+
   }
 
   h1 {
     font-size: 3.8em;
+    z-index: 0;
   }
 
   h3 {
