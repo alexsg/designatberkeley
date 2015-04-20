@@ -55,6 +55,11 @@ $(document).ready(function(){
   $(pull).on('click', function(e) {
       e.preventDefault();
       menu.slideToggle();
+      if($('.mid').css("z-index")=="-1"){
+        $('.mid').css("z-index","0");
+      }else{
+        $('.mid').css("z-index","-1");
+      }
   });
 
   // var w = $(window).width();
@@ -69,6 +74,7 @@ $(document).ready(function(){
       var w = $(window).width();
       if(w > 667 && menu.is(':hidden')) {
           menu.removeAttr('style');
+          $('.mid').css("z-index","0");
       }
   });
 
