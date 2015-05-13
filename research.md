@@ -16,7 +16,7 @@ published: true
 	</div>
 	<div class="large-6 columns medium-6 columns">
 		<div class="img-wrapper">
-		  <img src="http://engineeringdesign.berkeley.edu/wp-content/uploads/2014/04/beehive.gif" />
+		  <img src="../media/beehive.gif" />
 		</div>
 	  <h3><a href="http://dec.berkeley.edu" target="_blank">Beehive: CoE Research Opportunities</a></h3>
 	  <p>
