@@ -38,7 +38,8 @@ prose:
     _posts:
       - name: "layout"
         field:
-          element: "hidden"
+          element: "text"
+          label: "layout"
           value: "blog"
       - name: "tags"
         field:
