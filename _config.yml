@@ -23,7 +23,7 @@ defaults:
       is_post: true # automatically set is_post=true for all posts
 
 prose:
-  rooturl: ''
+  rooturl: '_posts'
   siteurl: 'http://designatberkeley.com'
   #relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
@@ -42,17 +42,23 @@ prose:
       - name: "layout"
         field:
           element: "text"
-          label: "If splash image included, write spash. Else, write post."
+          label: "Layout"
+          help: "If splash image included, change to spash."
           value: "post"
       - name: "splash"
         field:
           element: "text"
           label: "Splash Image URL"
           value: ""
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
       - name: "author"
         field:
           element: "text"
-          label: "Author Name (ex: Serena Chang)"
+          label: "Author"
           value: ""
       - name: "categories"
         field:
