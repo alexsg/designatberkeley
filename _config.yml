@@ -10,6 +10,9 @@ github_username:  shanawho
 
 # Build settings
 markdown: kramdown
+excerpt_separator: <!--more-->
+
+permalink: "/blog/:year/:month/:day/:title/"
 
 defaults:
   -
@@ -39,7 +42,21 @@ prose:
       - name: "layout"
         field:
           element: "text"
-          label: "layout"
+          label: "If splash image included, write spash. Else, write post."
+          value: "post"
+      - name: "splash"
+        field:
+          element: "text"
+          label: "Splash Image URL"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author Name (ex: Serena Chang)"
+          value: ""
+      - name: "categories"
+        field:
+          element: "hidden"
           value: "blog"
       - name: "tags"
         field:
@@ -51,13 +68,3 @@ prose:
               value: "classes"
             - name: "Clubs"
               value: "clubs"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
