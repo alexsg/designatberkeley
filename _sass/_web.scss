@@ -292,7 +292,7 @@ nav a#pull {
 
 .hero-homepage {
   min-height: 100%;
-  @include hero-bg("https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/t31.0-8/10636818_798585763513551_8512243890731656208_o.jpg");
+  @include hero-bg("../media/hero/bg.jpg");
 
     .arrow-down {
       margin: 0 auto;
@@ -310,43 +310,43 @@ nav a#pull {
 }
 
 .hero-council {
-  @include hero-bg("../media/council.jpg");
+  @include hero-bg("../media/hero/council.jpg");
 }
 
 .hero-clubs {
-  @include hero-bg("../media/clubs.jpg");
+  @include hero-bg("../media/hero/clubs.jpg");
 }
 
 .hero-intro {
-  @include hero-bg("../media/intro.jpg")
+  @include hero-bg("../media/hero/intro.jpg")
 }
 
 .hero-spaces {
-  @include hero-bg("../media/spaces.jpg");
+  @include hero-bg("../media/hero/spaces.jpg");
 }
 
 .hero-teams {
-  @include hero-bg("../media/canoe.png");
+  @include hero-bg("../media/hero/canoe.png");
 }
 
 .hero-classes {
-  @include hero-bg("../media/classes.jpg");
+  @include hero-bg("../media/hero/classes.jpg");
 }
 
 .hero-research {
-  @include hero-bg("../media/research.jpg");
+  @include hero-bg("../media/hero/research.jpg");
 }
 
 .hero-contact {
-  @include hero-bg("../media/contact.jpg");
+  @include hero-bg("../media/hero/contact.jpg");
 }
 
 .hero-blog {
-  @include hero-bg("../media/blog.jpg");
+  @include hero-bg("../media/hero/blog.jpg");
 }
 
 .hero-getinvolved {
-  @include hero-bg("../media/get-involved.jpg");
+  @include hero-bg("../media/hero/get-involved.jpg");
 }
 
 .hero-basic {

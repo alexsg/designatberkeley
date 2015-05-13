@@ -29,17 +29,17 @@ published: true
 	<div class="row sponsors">
 		<div class="large-4 medium-4 columns centered">
 			<div class="img-wrapper">
-				<img src="../media/jacobs.png" />
+				<img src="/media/sponsors/jacobs.png" />
 			</div>
 		</div>
 		<div class="large-4 medium-4 columns centered">
 			<div class="img-wrapper">
-				<img src="http://citris-uc.org/wp-content/uploads/2014/02/CITRIS_rectangle_forlightbkgrnd.png" />
+				<img src="/media/sponsors/citris.png" />
 			</div>
 		</div>
 		<div class="large-4 medium-4 columns centered">
 			<div class="img-wrapper">
-				<img src="../media/google-logo.png"/>
+				<img src="/media/sponsors/google-logo.png"/>
 			</div>
 		</div>
 	</div>
