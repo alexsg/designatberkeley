@@ -774,6 +774,13 @@ input.button-blue {
   padding-bottom: $unit*12;
 }
 
+.fa {
+  &.fa-external-link {
+  margin-left: $unit;
+  font-size: .7em;
+}
+}
+
 .page-content {
   a {
     font-weight: 300;
@@ -786,11 +793,6 @@ input.button-blue {
     a {
       text-decoration: none;
       font-weight: 500;
-
-      i {
-        margin-left: $unit;
-        font-size: .7em;
-      }
     }
 
   }
