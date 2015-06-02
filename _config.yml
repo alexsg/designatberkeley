@@ -22,6 +22,9 @@ defaults:
     values:
       is_post: true # automatically set is_post=true for all posts
 
+gems:
+  - jekyll-sitemap
+
 prose:
   rooturl: '_posts'
   siteurl: 'http://designatberkeley.com'
