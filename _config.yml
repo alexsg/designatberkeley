@@ -8,6 +8,11 @@ url: "http://designatberkeley.com" # the base hostname & protocol for your site
 twitter_username: designatcal
 github_username:  shanawho
 
+timezone:       America/Los_Angeles
+locale:         en_us
+icon:           /media/flyer.png
+fb_admins:      https://www.facebook.com/berkeleydesigncouncil
+
 # Build settings
 markdown: kramdown
 excerpt_separator: <!--more-->
