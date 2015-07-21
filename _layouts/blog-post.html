@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+</html>
+
+<body>
+
+  {% include scrollnav.html %}
+
+  <div class="hero hero-test inverted" {% if page.featured_image %}style=
+  "background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url({{ page.featured_image }}) no-repeat center center;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover;"{% endif %}>
+    <div class="centered">
+      <h1>{{ page.title }}</h1><br />
+      <p class="post-meta" style="text-transform:uppercase;">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • <!-- <a href="{{ author.web }}" target="_blank"> -->{{ page.author }}<!-- </a> -->{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </div>
+  </div>
+  <section class="page-content">
+    <header class="row centered">
+    </header>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <p class="post-content">
+          {{ content }}
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  {% include footer.html %}
+
+</body>

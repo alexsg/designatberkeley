@@ -4,6 +4,7 @@ title:  "BI Reflection"
 date:   2015-04-10 18:25:05
 author: Phoebe Lin
 categories: get-involved
+featured_image: /media/bi-reflection-hero.jpg
 ---
 
 Thinking back now on my freshman year, I don’t think I could have been farther from design, at least in terms of what I wanted to do with my life. I arrived to this school as a hopeful premed (yes, really) and my world knew only of biology and chemistry. One and a half years later, I discovered my interest for **computer science** and an admiration toward the maker community. I had no idea what computer science was or anything, but it was really exciting to see what people did with it. Fast forward two years of struggling, but a lot of learning, I found myself officially declared as a computer science major. That decision—to do computer science and become involved in the engineering community—was the first step in my design career. 

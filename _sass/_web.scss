@@ -309,6 +309,10 @@ nav a#pull {
     }
 }
 
+.hero-test {
+  @include hero-bg("https://d262ilb51hltx0.cloudfront.net/max/1200/1*kIJIW4l9v8pQ1xzKlVK3kQ.jpeg");
+}
+
 .hero-council {
   @include hero-bg("../media/hero/council.jpg");
 }

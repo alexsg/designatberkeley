@@ -4,6 +4,7 @@ title:  "Understanding Design Consulting (Part 1)"
 date:   2015-04-11 18:25:05
 author: Bianca Romulo<!-- bianca_romulo -->
 categories: learn physical-product-design digital-product-design visual-product-design
+featured_image: https://d262ilb51hltx0.cloudfront.net/max/2000/1*zHtasZlU-peJ6BlH_Y6TAA.jpeg
 ---
 
 During Spring Break of 2015 I decided to go to the Pacific Northwest to learn about the exciting and unique culture of design consultancy. For those of you who are unfamiliar with design consultancy, I took this definition from IDEO’s “About” page:

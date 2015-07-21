@@ -4,6 +4,7 @@ title:  "\"What's your major?\""
 date:   2015-04-15 18:25:05
 author: Andrea Deng
 categories: get-involved
+featured_image: /media/lightskirt.jpg
 ---
 
 I heard this question so many times my Freshman year at Berkeley, and every time, I struggled for an answer. I felt I hadn’t experienced enough of life to firmly know what I wanted to do in the future, and now I realize, I never will. Life is a continuous journey of learning and self-discovery.

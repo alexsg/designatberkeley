@@ -4,6 +4,7 @@ title:  "Understanding Design Consulting (Part 2)"
 date:   2015-04-12 18:25:05
 author: Bianca Romulo<!-- bianca_romulo -->
 categories: learn physical-product-design digital-product-design visual-product-design
+featured_image: https://d262ilb51hltx0.cloudfront.net/max/2000/1*zLYZjYOMb2uyQFi6J6ZTFw.jpeg
 ---
 
 In case you didn’t see the first part, [here](https://medium.com/@biancaromulo/spring-break-in-seattle-the-design-edition-6e6ba9ba2d61) it is. To recap, I spent my spring break this year touring several design firms around Seattle and I learned a ton about the industry that I wanted to share with you guys. Part 1 recaps the first half of my visit; this is the second. Enjoy!

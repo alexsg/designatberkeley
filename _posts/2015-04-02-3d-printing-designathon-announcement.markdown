@@ -3,6 +3,7 @@ layout: post
 title:  "3D Printing Designathon"
 date:   2015-04-06 18:25:05
 categories: events physical-product-design
+featured_image: /media/3d-printing-designathon-hero.jpg
 ---
 
 On April 4th and 5th at UC Berkeley’s Sutardja Dai Hall, several of Berkeley’s design oriented organizations, including 3D Modeling Club, Design Engineering Collaborative, and Design Council, hosted UC Berkeley’s first ever 3D Printing Designathon. The competition required students to design and 3D print a prototype to improve the life of a UC Berkeley student.

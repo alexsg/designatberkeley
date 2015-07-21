@@ -4,6 +4,7 @@ title:  "Design by Collaboration"
 date:   2015-04-13 18:25:05
 author: Ethan Anderson
 categories: get-involved
+featured_image: /media/3d-printing-hero.jpg
 ---
 
 I was wandering the rows of tables at Callapalooza during my first semester at Berkeley when the **Design Engineering Collaborative** caught my eye. They had a massive whiteboard set up with expo markers, sticky notes, and a prompt: "What problem do you want to solve?" 
