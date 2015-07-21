@@ -4,6 +4,7 @@ title:  "Tips for Incoming Freshmen from a Freshman"
 date:   2015-04-14 18:25:05
 author: Alex Yao
 categories: get-involved
+featured_image: /media/dec.jpg
 ---
 
 Take interesting classes. You have four years of college to explore what you want to do and your freshman year is an opportunity to branch out into as many areas as possible. Don’t just take classes for the grade; take classes with interesting professors and topics that interest you. First semester, I didn’t take classes that I was actually interested in. It was frustrating because I knew I had extra time to take more interesting classes and I wasn’t getting the most out of my semester. This semester I decided to take INFO 290, a class where I was surrounded by graduate students and probably had no reason to take. However, I was interested in the topics that were being discussed and I became friends some really cool people. You might not be able to get into upper division or graduate student classes, but if you talk to the professor and show your interest they might let you in or allow you to audit the class. DeCals are also amazing because you can explore some very interesting classes in just about any topic. The **Design DeCal** provided a great foundation for my introduction into design.

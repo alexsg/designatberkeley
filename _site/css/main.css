@@ -879,4 +879,21 @@ input.button-blue {
     width: 100%; }
 
 .uh-oh {
+  background-color: #28c1e5;
+  min-height: 65px;
+  margin-top: -64px;
+  z-index: 0; }
+  .uh-oh .preheader {
+    font-size: 1.25em;
+    font-weight: 100;
+    z-index: 0; }
+  .uh-oh h1 {
+    font-size: 3.8em;
+    z-index: 0; }
+  .uh-oh h3 {
+    margin-bottom: 0; }
+  .uh-oh .centered {
+    padding-top: 225px; }
+
+.uh-oh-content {
   background-color: #28c1e5; }
