@@ -4,11 +4,11 @@
     <title>Design At Berkeley</title>
     <description>The student-curated website for everything related to design at Berkeley.
 </description>
-    <link>http://designatberkeley.com/</link>
-    <atom:link href="http://designatberkeley.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2016 00:42:15 -0700</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2016 00:42:15 -0700</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 01 Nov 2016 19:07:43 -0700</pubDate>
+    <lastBuildDate>Tue, 01 Nov 2016 19:07:43 -0700</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>How I Discovered Design</title>
@@ -25,8 +25,8 @@
 &lt;p&gt;All in all, design is something that I have stumbled upon and it has become my world. Design isn’t just architecture, engineering, psychology, and business; it’s more than that. It’s a lifestyle and journey that I’ve only recently began and this path only seems to get more exciting. It’ll take time to explore all four corners of design, but hopefully the adventure won’t be lonely. Along the way, I hope to cultivate and help others find and grow their passion for design, so that in the end, we can all discover design together.&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Apr 2015 11:25:05 -0700</pubDate>
-        <link>http://designatberkeley.com/blog/2015/04/16/how-i-discovered-design/</link>
-        <guid isPermaLink="true">http://designatberkeley.com/blog/2015/04/16/how-i-discovered-design/</guid>
+        <link>http://localhost:4000/blog/2015/04/16/how-i-discovered-design/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/04/16/how-i-discovered-design/</guid>
         
         
         <category>get-involved</category>
@@ -48,8 +48,8 @@
 &lt;p&gt;“What’s your first step?”&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Apr 2015 11:25:05 -0700</pubDate>
-        <link>http://designatberkeley.com/blog/2015/04/15/get-involved-in-design/</link>
-        <guid isPermaLink="true">http://designatberkeley.com/blog/2015/04/15/get-involved-in-design/</guid>
+        <link>http://localhost:4000/blog/2015/04/15/get-involved-in-design/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/04/15/get-involved-in-design/</guid>
         
         
         <category>get-involved</category>
@@ -67,8 +67,8 @@
 &lt;p&gt;Don’t just stay in your room. You have nothing to lose, put yourself out there. What makes UC Berkeley a great university is the community and not the place. Find cool people, upperclassmen and leaders in the community and ask them for advice, find them on Facebook, and become friends with them. The design community at Berkeley is a relatively close community and once you get to know a few people, you end up knowing everyone else! People are always willing to teach you about design and provide advice for getting more involved.&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Apr 2015 11:25:05 -0700</pubDate>
-        <link>http://designatberkeley.com/blog/2015/04/14/tips-for-incoming-freshmen/</link>
-        <guid isPermaLink="true">http://designatberkeley.com/blog/2015/04/14/tips-for-incoming-freshmen/</guid>
+        <link>http://localhost:4000/blog/2015/04/14/tips-for-incoming-freshmen/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/04/14/tips-for-incoming-freshmen/</guid>
         
         
         <category>get-involved</category>
@@ -88,8 +88,8 @@
 &lt;p&gt;It’s through the Design Council that I’ve met leaders from a multitude of design clubs on campus, representing fields from augmented reality to photography to human-centered design. Design is such a large field that it’s difficult to know where to start, but the Design Council aims to make it more approachable to everyone.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Apr 2015 11:25:05 -0700</pubDate>
-        <link>http://designatberkeley.com/blog/2015/04/13/design-by-collaboration/</link>
-        <guid isPermaLink="true">http://designatberkeley.com/blog/2015/04/13/design-by-collaboration/</guid>
+        <link>http://localhost:4000/blog/2015/04/13/design-by-collaboration/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/04/13/design-by-collaboration/</guid>
         
         
         <category>get-involved</category>
@@ -226,8 +226,8 @@
 &lt;p&gt;&lt;em&gt;This post is cross-posted from &lt;a href=&quot;https://medium.com/@biancaromulo/design-firms-in-seattle-part-2-264dd1f7e55b&quot;&gt;Medium&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Apr 2015 11:25:05 -0700</pubDate>
-        <link>http://designatberkeley.com/blog/2015/04/12/understanding-design-consulting-part-2/</link>
-        <guid isPermaLink="true">http://designatberkeley.com/blog/2015/04/12/understanding-design-consulting-part-2/</guid>
+        <link>http://localhost:4000/blog/2015/04/12/understanding-design-consulting-part-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/04/12/understanding-design-consulting-part-2/</guid>
         
         
         <category>learn</category>
@@ -373,8 +373,8 @@
 &lt;p&gt;&lt;em&gt;This post is cross-posted from &lt;a href=&quot;https://medium.com/@biancaromulo/spring-break-in-seattle-the-design-edition-6e6ba9ba2d61&quot;&gt;Medium&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Apr 2015 11:25:05 -0700</pubDate>
-        <link>http://designatberkeley.com/blog/2015/04/11/understanding-design-consulting-part-1/</link>
-        <guid isPermaLink="true">http://designatberkeley.com/blog/2015/04/11/understanding-design-consulting-part-1/</guid>
+        <link>http://localhost:4000/blog/2015/04/11/understanding-design-consulting-part-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/04/11/understanding-design-consulting-part-1/</guid>
         
         
         <category>learn</category>
@@ -404,8 +404,8 @@
 &lt;p&gt;The past four years truly has been a roller coaster ride, and at the end of the day, it was simply my curiosity to learn new things that has led me here. I realize that we all experience things differently, but I encourage you, my reader, to give design a chance. Who knows? It might lead you down your rabbit-hole.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Apr 2015 11:25:05 -0700</pubDate>
-        <link>http://designatberkeley.com/blog/2015/04/10/bi-reflection/</link>
-        <guid isPermaLink="true">http://designatberkeley.com/blog/2015/04/10/bi-reflection/</guid>
+        <link>http://localhost:4000/blog/2015/04/10/bi-reflection/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/04/10/bi-reflection/</guid>
         
         
         <category>get-involved</category>
@@ -423,7 +423,7 @@ By 10:00 am the next morning, 14 teams finalized their designs and prepared thei
 
 &lt;p&gt;At the end of the showcase, the votes were tallied and the winners were announced. Two teams tied for Judges’ Vote:  team Eggman, with Berni, a customizable attachment that transforms glass bottles into furniture legs and team Nice Guys, with Compact Storage Solutions, a set of Ferris-wheel shelves and a bunk bed desk that maximizes storage in dorm rooms.   Team Fennec Fox, with Lattice Lights, a decorative awning that provides light at night, won the popular vote. The winners from each team received printing credit from Sculpteo and a tour of Autodesk’s Pier 9 Workshop in San Francisco.&lt;/p&gt;
 
-&lt;p&gt;UC Berkeley’s design organizations will be hosting another 3D Printing Designathon in the Fall semester, in collaboration with the newly formed Jacobs Institute of Design at UC Berkeley. If you are interested in sponsoring the next Designathon, please contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#098;&amp;#101;&amp;#114;&amp;#107;&amp;#101;&amp;#108;&amp;#101;&amp;#121;&amp;#100;&amp;#101;&amp;#115;&amp;#105;&amp;#103;&amp;#110;&amp;#099;&amp;#111;&amp;#117;&amp;#110;&amp;#099;&amp;#105;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#098;&amp;#101;&amp;#114;&amp;#107;&amp;#101;&amp;#108;&amp;#101;&amp;#121;&amp;#100;&amp;#101;&amp;#115;&amp;#105;&amp;#103;&amp;#110;&amp;#099;&amp;#111;&amp;#117;&amp;#110;&amp;#099;&amp;#105;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;UC Berkeley’s design organizations will be hosting another 3D Printing Designathon in the Fall semester, in collaboration with the newly formed Jacobs Institute of Design at UC Berkeley. If you are interested in sponsoring the next Designathon, please contact &lt;a href=&quot;mailto:berkeleydesigncouncil@gmail.com&quot;&gt;berkeleydesigncouncil@gmail.com&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;##Winners&lt;/p&gt;
 
@@ -457,8 +457,8 @@ By 10:00 am the next morning, 14 teams finalized their designs and prepared thei
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 06 Apr 2015 11:25:05 -0700</pubDate>
-        <link>http://designatberkeley.com/blog/2015/04/06/3d-printing-designathon-announcement/</link>
-        <guid isPermaLink="true">http://designatberkeley.com/blog/2015/04/06/3d-printing-designathon-announcement/</guid>
+        <link>http://localhost:4000/blog/2015/04/06/3d-printing-designathon-announcement/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/04/06/3d-printing-designathon-announcement/</guid>
         
         
         <category>events</category>
